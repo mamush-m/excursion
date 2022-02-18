@@ -1,5 +1,15 @@
+* {
+    /* box-sizing: border-box; */
+}
 body {
     background-color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section h3 {
+    font-size: 21px;
+    color: gray;
 }
 
 header h1 {
@@ -8,6 +18,7 @@ header h1 {
     font-size: 50px;
     color: white;
     text-align: center;
+    /* border: 9px solid rgb(55, 0, 255); */
 }
 
 .links {
@@ -15,7 +26,12 @@ header h1 {
     font-size: 16px;
     box-sizing: border-box;
     text-align: center;
-    border: 4px solid red;
+    /* border: 10px solid rgb(238, 255, 0); */
+    margin: 0 auto;
+    width: 80px;
+    /* position: relative; */
+    left: 640px;
+
 }
 
 .sub-headers {
@@ -23,10 +39,37 @@ header h1 {
     font-weight: 300;
     font-size: 42px;
     color: white;
+    /* border: 10px solid green; */
+    text-align: center;
 }
 
 footer h3 {
     text-align: right;
     color: gray;
     z-index: 3;
+    /* border: 4px dotted yellow */
+}
+
+p img {
+    /* border: 9px solid orange; */
+
+}
+
+.media {
+    /* border: 9px solid red; */
+    /* position: relative;    */
+}
+
+#phone {
+    left: 750px;
+}
+
+#camp {
+    /* border:9px dotted yellow; */
+    left: 350px;
+}
+
+#video {
+    /* border: 9px dotted green; */
+    left: 550px;
 }
